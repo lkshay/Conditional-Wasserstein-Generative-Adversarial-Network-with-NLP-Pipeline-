@@ -1,0 +1,3 @@
+is that a car?
+label = truck
+class = 9
