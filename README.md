@@ -8,7 +8,11 @@ These word embeddings can be trained for any applications provided input context
 3) Other common python tools including OpenCV
 
 # The Pipeline is as follows: 
-One of the project_demo.sh file can be used to enter the text descriptions in the terminal. The FastText word embeddings are trained to produce one of the 10 classes in Cifar10 dataset. After this label is produced, it is run through the DCGAN to produce an artificial image of the class label.
+One of the project_demo.sh file can be used to enter the text descriptions in the terminal.
+Alternatively, run_app.py can be used to easily run the pipeline.
+
+The FastText word embeddings are trained to produce one of the 10 classes in Cifar10 dataset. After this label is produced, it is run through the DCGAN to produce an artificial image of the class label.
+
 
 The network was trained on a machine with GPU and is a long process as we are training multiple neural networks (a Convolutional Nueral Network (Descriminator) and Up sampling (Generative) network). 
 
