@@ -15,3 +15,5 @@ The network was trained on a machine with GPU and is a long process as we are tr
 Details about the network architecture can be seen in the PDF report. Implementation can be seen in nets.py
 
 References can also be seen in the report.
+
+Tested in Ubuntu 18.04
